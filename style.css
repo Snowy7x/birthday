@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("./images/4.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#background{
+    background: transparent;
+}
+
+#background:hover{
+    cursor: none;
+}
+
+#title{
+    height: 200px;
+    color: white;
+    max-width: 90%;
+    position: fixed;
+    left: 40%;
+    top: 25%;
+}
+
+.nav-item:hover{
+    border: 1px solid yellow;
+    background: rgba(0, 2, 55, 0.74);
+}
+
+.fixed-top {
+    max-width: 30%;
+    z-index: 3 !important;
+}
